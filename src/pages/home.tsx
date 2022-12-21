@@ -17,27 +17,22 @@ function Home(){
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Link</a>
+          <a className="nav-link" href="#">Sobre</a>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Contato
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
+            <li><a className="dropdown-item" href="#">WhatsApp</a></li>
+            <li><a className="dropdown-item" href="#">E-Mail</a></li>
             <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
+            <li><a className="dropdown-item" href="#">Todas as Redes Sociais</a></li>
           </ul>
         </li>
-        <li className="nav-item">
-          <a className="nav-link disabled">Disabled</a>
-        </li>
+       
       </ul>
-      <form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+    
     </div>
   </div>
 
@@ -48,26 +43,20 @@ function Home(){
 <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header className="mb-auto">
     <div>
-      <h3 className="float-md-start mb-0">Cover</h3>
-      <nav className="nav nav-masthead justify-content-center float-md-end">
-        <a className="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-        <a className="nav-link fw-bold py-1 px-0" href="#">Features</a>
-        <a className="nav-link fw-bold py-1 px-0" href="#">Contact</a>
-      </nav>
+      
+     
     </div>
   </header>
 
-  <main className="px-3">
-    <h1>Cover your page.</h1>
-    <p className="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+  <main className="px-3" style={{ height: "300px", marginTop: "250px", verticalAlign: "center"}}>
+    <h1>Suba agora para o próximo nível.</h1>
+    <p className="lead">Você pode ter os resultados que você precisa através da internet. Nós estamos entre os que descobriram como. Queremos te ensinar tudo sobre. Não existe mais nenhum impedimento entre vocÊ e o seu próximo nível. E aí, vamos?</p>
     <p className="lead">
       <a href="#" className="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
     </p>
   </main>
 
-  <footer className="mt-auto text-white-50">
-    <p>Cover template for <a href="https://getbootstrap.com/" className="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" className="text-white">@mdo</a>.</p>
-  </footer>
+  
 </div>
 
 
@@ -136,16 +125,16 @@ function Home(){
     <h1 className="visually-hidden">Features examples</h1>
 
     <div className="container px-4 py-5" id="featured-3">
-      <h2 className="pb-2 border-bottom">Columns with icons</h2>
+      <h2 className="pb-2 border-bottom">Entenda porque somos a melhor opção.</h2>
       <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div className="feature col">
           <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
             <svg className="bi" width="1em" height="1em"><use href="#collection"/></svg>
           </div>
-          <h3 className="fs-2">Featured title</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <h3 className="fs-2">Tecnologia</h3>
+          <p>Se o seu negócio hoje não utiiza ativamente de tecnologia, ele não exixtirá em pouco tempo. Nós dominamos este setor. Quer surfar essa onda? Conte conosco.</p>
           <a href="#" className="icon-link d-inline-flex align-items-center">
-            Call to action
+          Fale Conosco Agora Mesmo
             <svg className="bi" width="1em" height="1em"><use href="#chevron-right"/></svg>
           </a>
         </div>
@@ -153,10 +142,10 @@ function Home(){
           <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
             <svg className="bi" width="1em" height="1em"><use href="#people-circle"/></svg>
           </div>
-          <h3 className="fs-2">Featured title</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <h3 className="fs-2">Pessoas</h3>
+          <p>Nosso time consiste de profissionais experientes em Copywriting, Desenvolvimento de Sistemas, UX Writing, ENgenharia de Software, Vendas e mais além...</p>
           <a href="#" className="icon-link d-inline-flex align-items-center">
-            Call to action
+          Fale Conosco Agora Mesmo
             <svg className="bi" width="1em" height="1em"><use href="#chevron-right"/></svg>
           </a>
         </div>
@@ -164,10 +153,10 @@ function Home(){
           <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
             <svg className="bi" width="1em" height="1em"><use href="#toggles2"/></svg>
           </div>
-          <h3 className="fs-2">Featured title</h3>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <h3 className="fs-2">Processos</h3>
+          <p>Você já se perguntou o porquê algumas empresas têm sucesso hoje em dia e outras não? Empresas que dominam em Tecnologia e Pessoas, são empresas que dominaram Gestão e Processos. Até nisso, nós podemos e iremos te ajudar</p>
           <a href="#" className="icon-link d-inline-flex align-items-center">
-            Call to action
+            Fale Conosco Agora Mesmo
             <svg className="bi" width="1em" height="1em"><use href="#chevron-right"/></svg>
           </a>
         </div>
@@ -177,17 +166,17 @@ function Home(){
     <div className="b-example-divider"></div>
 
     <div className="container px-4 py-5" id="hanging-icons">
-      <h2 className="pb-2 border-bottom">Hanging icons</h2>
+      <h2 className="pb-2 border-bottom">Conheça mais sobre nós</h2>
       <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div className="col d-flex align-items-start">
           <div className="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
             <svg className="bi" width="1em" height="1em"><use href="#toggles2"/></svg>
           </div>
           <div>
-            <h3 className="fs-2">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+            <h3 className="fs-2">O que oferecemos?</h3>
+            <p>Obtenha copys, landing pages, UX completos, sites completos, aplicações web, aplicativos, e o que mais o seu negócio precisar. </p>
             <a href="#" className="btn btn-primary">
-              Primary button
+              Escolha seu produto
             </a>
           </div>
         </div>
@@ -196,10 +185,10 @@ function Home(){
             <svg className="bi" width="1em" height="1em"><use href="#cpu-fill"/></svg>
           </div>
           <div>
-            <h3 className="fs-2">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+            <h3 className="fs-2">Que tecnologias utilizamos?</h3>
+            <p>React, React Native, Ionic, Nest.js, Node.js, Angular, PHP, MySQL são algumas das principais tecnologias que utilizamos.</p>
             <a href="#" className="btn btn-primary">
-              Primary button
+              Saiba Mais
             </a>
           </div>
         </div>
@@ -208,10 +197,10 @@ function Home(){
             <svg className="bi" width="1em" height="1em"><use href="#tools"/></svg>
           </div>
           <div>
-            <h3 className="fs-2">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+            <h3 className="fs-2">Que ferramentas oferecemos?</h3>
+            <p>"(Aqui a gente vai preencher com o que oferecemos de ferramentas próprias)"</p>
             <a href="#" className="btn btn-primary">
-              Primary button
+              Saiba mais
             </a>
           </div>
         </div>
@@ -221,13 +210,13 @@ function Home(){
     <div className="b-example-divider"></div>
 
     <div className="container px-4 py-5" id="custom-cards">
-      <h2 className="pb-2 border-bottom">Custom cards</h2>
+      <h2 className="pb-2 border-bottom">Nossos produtos mais vendidos</h2>
 
       <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <div className="col">
           <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" /*style="background-image: url('unsplash-photo-1.jpg');"*/>
             <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+              <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Landing Pages</h3>
               <ul className="d-flex list-unstyled mt-auto">
                 <li className="me-auto">
                   <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" className="rounded-circle border border-white"/>
@@ -248,7 +237,7 @@ function Home(){
         <div className="col">
           <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" /* style="background-image: url('unsplash-photo-2.jpg');"  */>
             <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+              <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Web Apps</h3>
               <ul className="d-flex list-unstyled mt-auto">
                 <li className="me-auto">
                   <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" className="rounded-circle border border-white"/>
@@ -269,7 +258,7 @@ function Home(){
         <div className="col">
           <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" /* style="background-image: url('unsplash-photo-3.jpg');" */>
             <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+              <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mobile Apps</h3>
               <ul className="d-flex list-unstyled mt-auto">
                 <li className="me-auto">
                   <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" className="rounded-circle border border-white"/>
@@ -357,13 +346,13 @@ function Home(){
     <div className="b-example-divider"></div>
 
     <div className="container px-4 py-5">
-      <h2 className="pb-2 border-bottom">Features with title</h2>
+      <h2 className="pb-2 border-bottom">Traga seu negócio para a revolução digital</h2>
 
       <div className="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
         <div className="d-flex flex-column align-items-start gap-2">
-          <h3 className="fw-bold">Left-aligned title explaining these awesome features</h3>
-          <p className="text-muted">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <a href="#" className="btn btn-primary btn-lg">Primary button</a>
+          <h3 className="fw-bold">Você não pode ficar de fora!</h3>
+          <p className="text-muted">Chega de não ver seu negócio dando frutos. Se mova na direção certa. Plante a semente certa, no solo certo. Traga seu negócio para o digital. </p>
+          <a href="#" className="btn btn-primary btn-lg">Entrar de cabeça</a>
         </div>
         <div className="row row-cols-1 row-cols-sm-2 g-4">
           <div className="d-flex flex-column gap-2">
@@ -373,7 +362,7 @@ function Home(){
                 <use href="#collection" />
               </svg>
             </div>
-            <h4 className="fw-semibold mb-0">Featured title</h4>
+            <h4 className="fw-semibold mb-0">Organize</h4>
             <p className="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
           </div>
 
@@ -384,7 +373,7 @@ function Home(){
                 <use href="#gear-fill" />
               </svg>
             </div>
-            <h4 className="fw-semibold mb-0">Featured title</h4>
+            <h4 className="fw-semibold mb-0">Configure</h4>
             <p className="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
           </div>
 
@@ -395,7 +384,7 @@ function Home(){
                 <use href="#speedometer" />
               </svg>
             </div>
-            <h4 className="fw-semibold mb-0">Featured title</h4>
+            <h4 className="fw-semibold mb-0">Acelere</h4>
             <p className="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
           </div>
 
@@ -406,14 +395,17 @@ function Home(){
                 <use href="#table" />
               </svg>
             </div>
-            <h4 className="fw-semibold mb-0">Featured title</h4>
+            <h4 className="fw-semibold mb-0">Conte os resultados</h4>
             <p className="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
           </div>
         </div>
       </div>
     </div>
-  </main>
+  </main> 
 
+  <footer className="mt-auto text-white-50">
+    <p>Cover template for <a href="https://getbootstrap.com/" className="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" className="text-white">@mdo</a>.</p>
+  </footer>
 
       <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
